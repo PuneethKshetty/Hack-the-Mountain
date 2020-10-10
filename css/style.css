@@ -12,11 +12,11 @@ body {
 
 .bg-banner {
   width: 100%;
-  height: 100vh;
+  height: 110vh;
   background-image: url(../images/Banner_final.png);
   background-repeat: no-repeat;
   background-position: right bottom;
-  background-size: 62rem; }
+  background-size: 30rem; }
   
 .container {
   width: 1170px;
