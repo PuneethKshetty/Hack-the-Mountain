@@ -18,10 +18,17 @@ body {
   background-position: right bottom;
   background-size: 30rem; }
   
+  height: 98vh;
+  background-image: url("../assets/images/Banner_final.png");
+  background-repeat: no-repeat;
+  background-position: right 110px;
+  background-size: 38rem;
+
+
+}
 .container {
   width: 1170px;
   margin: 0 auto; }
-  
   .btn-secondary {
       color: #fff;
       background-color: purple !important;
@@ -31,27 +38,24 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 60px 0; }
-  
   .head__logo {
     display: flex;
     align-items: center;
-    cursor: pointer; }
-    
+    cursor: pointer;
+  margin-top: -20px;
+margin-left: 28px;}
     .head__logo img {
-      width: 38px; }
-      
+      width: 62px; }
     .head__logo h1 {
       font-size: 18px;
       font-weight: 700;
       text-transform: uppercase;
       color: #ff5e43;
       margin-left: 10px; }
-      
   .head__menu ul {
     display: flex;
     align-items: center;
     list-style: none; }
-    
     .head__menu ul li a {
       display: block;
       padding: 0 20px;
@@ -61,10 +65,8 @@ body {
       position: relative;
       z-index: 1;
       transition: .5s; }
-      
       .head__menu ul li a:hover {
         color: #fff; }
-        
       .head__menu ul li a::before {
         content: "";
         position: absolute;
@@ -77,38 +79,34 @@ body {
         transition: transform .5s;
         transform-origin: right;
         transform: scaleX(0); }
-        
       .head__menu ul li a:hover::before {
         transition: transform .5s;
         transform-origin: left;
         transform: scaleX(1); }
 
 .page-intro {
-  max-width: 430px;
+  max-width: 586px;
   padding-top: 20px; }
-  
   .page-intro__text {
     padding-left: 50px; }
-    
-    .page-intro__text h2 {
-      font-size: 30px;
-      color: #8ea0fe;
+    .page-intro__text h1 {
+      font-size: 4rem;
+      color: purple;
+      font-family: 'Poppins';
       line-height: 1;
-      text-transform: uppercase;
-      white-space: nowrap;
+      text-transform:full-width;
+      white-space: wrap;
      }
     .page-intro__text h5 {
       font-size: 20px;
       color: #8ea0fe;
       font-weight: 700; }
-      
     .page-intro__text p {
       color: red;
       font-size: 16px;
       font-weight: 300;
       padding-right: 20px;
       margin: 30px 0 20px; }
-      
     .page-intro__text a {
       display: inline-block;
       text-decoration: none;
@@ -120,11 +118,9 @@ body {
       border-radius: 5px;
       position: relative;
       transition: .5s; }
-      
       .page-intro__text a:hover {
         border-color: transparent;
         color: #fff; }
-        
       .page-intro__text a::before {
         content: "";
         position: absolute;
@@ -138,12 +134,10 @@ body {
         transform-origin: right;
         transform: scaleX(0);
         border-radius: 5px; }
-        
       .page-intro__text a:hover::before {
         transition: transform .5s;
         transform-origin: left;
         transform: scaleX(1); }
-        
   .page-intro__icon {
     margin-top: 80px; }
     .page-intro__icon img {
