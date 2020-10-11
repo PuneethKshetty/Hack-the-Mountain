@@ -22,4 +22,4 @@
 5. JAVASCRIPT
 6. GITHUB
 
-https://rahul-nl.github.io/Hack-the-Mountain/index.html
+
