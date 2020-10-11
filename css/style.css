@@ -12,12 +12,6 @@ body {
 
 .bg-banner {
   width: 100%;
-  height: 110vh;
-  background-image: url(../images/Banner_final.png);
-  background-repeat: no-repeat;
-  background-position: right bottom;
-  background-size: 30rem; }
-  
   height: 98vh;
   background-image: url("../assets/images/Banner_final.png");
   background-repeat: no-repeat;
