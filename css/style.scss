@@ -14,14 +14,14 @@ body {
 .container-fluid {
     width: 100%;
 }
-
 .bg-banner {
     width: 100%;
-    height: 100vh;
-    background-image: url(../images/Banner_final.png);
+    height: 110vh;
+    background-image: url(../assets/images/Banner_final.png);
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: 62rem;
+    margin-left:20px;
 }
 
 .container {
@@ -44,13 +44,6 @@ body {
             width: 38px;
         }
 
-        h1 {
-            font-size: 18px;
-            font-weight: 700;
-            text-transform: uppercase;
-            color: #ff5e43;
-            margin-left: 10px;
-        }
     }
 
     &__menu {
@@ -111,11 +104,12 @@ body {
             line-height: 1;
             font-weight: 500;
         }
-        h2 {
-            font-size: 44px;
-            color: #8ea0fe;
+        h1 {
+            font-size: 3.5rem;
+            color: purple;
+            font-weight: 900;
             line-height: 1;
-            text-transform: uppercase;
+            text-transform: lowercase;
         }
 
         h5 {
